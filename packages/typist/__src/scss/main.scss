@@ -1,0 +1,36 @@
+@import "~bootstrap/scss/bootstrap";
+
+$teal-color: #E3BBA6;
+$bg-color: #c2dde4;
+
+body {
+  background-color: $bg-color;
+  color: #7697a0;
+  font-family: monospace;
+}
+
+.list-group-item {
+  background-color: $bg-color;
+}
+
+.lead-style {
+  font-family: Helvetica;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.writing-area {
+  font-family: monospace;
+  margin-top: 2rem;
+}
+.text-to-write {
+  color: #7697a0;
+}
+.text-to-write__correct {
+  color: #35606d;
+}
+.text-to-write__incorrect {
+  color: red;
+}
+
+
