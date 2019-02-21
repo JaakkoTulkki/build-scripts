@@ -1,0 +1,4 @@
+{
+  "extends": "./node_modules/easy-react-build/src/config/babelrc.js",
+  "presets": ["@babel/react"]
+}
